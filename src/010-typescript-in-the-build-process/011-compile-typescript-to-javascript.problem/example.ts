@@ -1,4 +1,4 @@
-const run = (message: string) => {
+const run = (message: string): void => {
   console.log(message);
 };
 

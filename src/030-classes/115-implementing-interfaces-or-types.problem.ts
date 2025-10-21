@@ -9,7 +9,7 @@ type IShape = {
 };
 
 // How do we ensure our Shape class matches IShape?
-class Shape {
+class Shape implements Shape{
   #x: number;
   #y: number;
 
